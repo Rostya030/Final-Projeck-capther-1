@@ -330,7 +330,7 @@ body {
     line-height: 1.5;
     margin-right: 75px;
     margin-left: 35px;
-    letter-spacing: 0.22px;
+    letter-spacing: 0.22p      x;
 }
 
 .team-people {
@@ -352,7 +352,7 @@ body {
 /* Projeck */
 
 .Project {
-    padding-top: 143px;
+    padding-top: 143px;     
 }
 
 .Project-title {
@@ -760,33 +760,33 @@ padding-bottom: 30px;
 }
 
 .footer-title-1 {
-color: var(--GrayBlack-color-);
-font-family: "DM Serif Display";
-font-size: 25px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.22px;
-margin-bottom: 21px;
+    color: var(--GrayBlack-color-);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
 }
 
 .footer-title-2 {
-color: var(--GrayBlack-color-);
-font-family: "DM Serif Display";
-font-size: 25px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.22px;
-margin-bottom: 21px;
+    color: var(--GrayBlack-color-);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
 }
 
 .footer-title-3 {
-color: var(--GrayBlack-color-);
-font-family: "DM Serif Display";
-font-size: 25px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.22px;
-margin-bottom: 21px;
+    color: var(--GrayBlack-color-);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
 }
 
 .footer-text-3:nth-child(1) {
