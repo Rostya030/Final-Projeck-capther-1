@@ -416,6 +416,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    row-gap: 61px;
     justify-content: center;
 }
 
@@ -425,7 +426,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
-    margin-bottom: 61px;
 }
 
 /* years */
