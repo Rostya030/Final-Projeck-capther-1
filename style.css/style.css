@@ -19,6 +19,12 @@ body {
     /* outline: 1px solid rgb(0, 6, 128) ;  */
 }
 /* header */
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
 .header-container {  
     display: flex;  
     justify-content: space-around;
@@ -34,8 +40,6 @@ body {
 }
 
 .header-line {
-    margin-top: 30px;
-    margin-bottom: 26px;
     margin-right: 485px;
 }
 
@@ -54,10 +58,10 @@ body {
 /* create */
 
 .create {
+    padding-top: 188px;
+    padding-bottom: 260px;
     background-image: url(/images.krakva/create.webp);
     background-repeat: no-repeat;
-    height: 831px;
-    width: 100%;
 }
 
 .create-caption {
@@ -68,13 +72,10 @@ body {
     line-height: 1.2;
     letter-spacing: 0.22px;    
     width: 595px;
-    padding-top: 188px;
-    margin-left: 120px;
     margin-bottom: 19px;
 }
 
 .create-p {
-    margin-left: 120px;
     width: 577px;
     color: var(--Gray-color-);
     font-size: 22px;
@@ -85,7 +86,6 @@ body {
 
 .create-btn {
     margin-top: 35px;
-    margin-left: 120px;
     width: 207px;
     height: 71px;
     flex-shrink: 0;
@@ -94,9 +94,6 @@ body {
 
 }
 .create-btnp {
-    margin-left: 34px;
-    margin-top: 22px;
-    margin-bottom: 22px;
     margin-right: auto;
     width: 106px;
     color: var(--white-color-);
@@ -109,6 +106,7 @@ body {
 /* desing */
 .design {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .design-items {
     display: flex;
@@ -159,7 +157,8 @@ body {
 }
 /* spec-tackle */
 .tackle {
-    padding-top: 164px;
+    padding-top: 100px;
+    padding-bottom: 139px;
 }
 
 .tackle-title {
@@ -290,7 +289,8 @@ body {
 
 .team {
     display: flex;
-    padding-bottom: 171px;
+    padding-top: 139px;
+    padding-bottom: 140px;
 }
 
 .team-box {
@@ -342,7 +342,6 @@ body {
 /*  brend */
 
 .brend-items {
-
     display: flex;
     gap: 112px;
     margin-left: 48px;
@@ -352,7 +351,8 @@ body {
 /* Projeck */
 
 .Project {
-    padding-top: 143px;     
+    padding-bottom: 113px;
+    padding-top: 80px;     
 }
 
 .Project-title {
@@ -661,6 +661,7 @@ body {
     border-radius: 70px;
     background: var(--GrayBlack-color-);
     padding-bottom: 95px;
+    margin-top: 100px;
     margin-bottom: 135px;  
     width: 1200px; 
     margin-right: auto;
@@ -760,7 +761,7 @@ body {
 
 .footer-title-1 {
     color: var(--GrayBlack-color-);
-    font-family: "DM Serif Display";
+    font-family: "DM Seif Display";
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5;
