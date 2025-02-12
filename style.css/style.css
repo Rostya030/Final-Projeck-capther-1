@@ -60,7 +60,7 @@ body {
 .create {
     padding-top: 188px;
     padding-bottom: 260px;
-    background-image: url(/images.krakva/create.webp);
+    background-image: url(../images.krakva/create.webp);
     background-repeat: no-repeat;
 }
 
@@ -91,9 +91,15 @@ body {
     flex-shrink: 0;
     background-color: var(--GrayBlack-color-);
     border-radius: 18px;
-
 }
+
+.create-btn::before {
+    content: "";
+    background-image: url(../images.krakva/strilka.webp);
+}
+
 .create-btnp {
+    margin-left: auto;
     margin-right: auto;
     width: 106px;
     color: var(--white-color-);
@@ -218,6 +224,10 @@ body {
     font-weight: 400;
     letter-spacing: 0.72px;
     line-height: 1.5;
+    padding-top: 21px;
+    padding-bottom: 23px;
+    display: flex;
+    align-items: center;
 }
 
 .tackle-btnp {
@@ -227,13 +237,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.72px;
     width: 162px;
-    padding-top: 21px;
-    padding-bottom: 23px;
-}
-
-.tackle-img {
-    padding-top: 25px;
-    padding-left: 15px;
 }
 
 .tackle-ochenKRASIVI-kryzok {
@@ -262,9 +265,9 @@ body {
     font-weight: 400;
     line-height: 1,3;
     letter-spacing: 0.22px;
-    margin-left: 361px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 47px;
-    margin-top: 103px;
 }
 
  .team-item {
@@ -277,14 +280,14 @@ body {
 .team-container {
     border-radius: 70px;
     background:var(--noname-color-);
-    margin-top: 139px;
+    padding-top: 139px;
+    padding-bottom: 171px;
 }
 
 .team-list {
     display: flex;
     gap: 18px;
     justify-content: center;
-    margin-bottom: 121px;
 }
 
 .team {
@@ -330,7 +333,7 @@ body {
     line-height: 1.5;
     margin-right: 75px;
     margin-left: 35px;
-    letter-spacing: 0.22p      x;
+    letter-spacing: 0.22px;
 }
 
 .team-people {
@@ -374,7 +377,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.22px;
     width: 786px;
-    margin-left: 207px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 71px;
 }
 
@@ -443,7 +447,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 1.7px;
-    margin: 14px 94px;
 }
 
 .years-text {
@@ -453,6 +456,10 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
+}
+
+.years-item {
+    padding: 14px 94px;
 }
 
 .years-item:nth-child(1) {
@@ -475,80 +482,6 @@ body {
 }
 
 /* Blogs */
-
-/* .Blogs-title {
-    color: var(--GrayBlack-color-);
-    text-align: center;
-    font-family: "DM Serif Display";
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: 0.22px;
-}
-
-.Blogs-text {
-    color: var(--Gray-color-);
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.22px;
-    width: 589px;
-    margin-left: 306px;
-    margin-bottom: 70px;
-}
-
-.Blogs-div {
-    border: solid 1px var(--border-color-);
-    border-radius: 62px;
-    
-}
-
-.Blogs-h2 {
-    color: var(--GrayBlack-color-);
-    font-family: "DM Serif Display";
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 1.4;
-    letter-spacing: 0.5px;
-    width: 334px;
-    margin-bottom: 34px;
-    margin-top: 15px;
-    margin-left: 21px;
-}
-
-.Blogs-textp {
-    color: var(--Gray-color-);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.22px;
-    width: 144px;
-    margin-left: 21px;
-}
-
-.Blogs-divvv{
-    display: flex;
-}
-
-.Blogs-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.Blogs-btn {
-    border-radius: 100px;
-    background: var(--noname-color-);
-    border: none;
-    padding: 21px 21px 21px 21px;
-    width: 52px;
-    height: 52px;
-    flex-shrink: 0;
-}
- */
 
  .Blogs-div {
     border: solid 1px var(--border-color-);
@@ -648,7 +581,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.22px;
     width: 589px;
-    margin-left: 306px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 70px;
     width: 589px;
     margin-top: 21px;
@@ -661,8 +595,7 @@ body {
     border-radius: 70px;
     background: var(--GrayBlack-color-);
     padding-bottom: 95px;
-    margin-top: 100px;
-    margin-bottom: 135px;  
+    padding-top: 95px;  
     width: 1200px; 
     margin-right: auto;
     margin-left: auto; 
@@ -676,11 +609,9 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
-    margin-top: 100px;
     margin-bottom: 9px;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
 }
 
 .join-text {
@@ -702,8 +633,8 @@ body {
     align-items: center;
     border: none;
     border-radius: 18px;
-    margin-left: 474px;
-    margin-bottom: 95px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .join-textb {
@@ -716,6 +647,10 @@ body {
 }
 
 /* footer фууууутёр */
+
+.footer {
+    padding-top: 100px;
+}
 
 .footer-horizontal {
     display: flex;
@@ -738,7 +673,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-text-2 {
@@ -747,7 +682,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-text-3 {
@@ -756,7 +691,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-title-1 {
