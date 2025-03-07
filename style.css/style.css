@@ -161,6 +161,11 @@ body {
     flex-shrink: 0;
     letter-spacing: 0.36px;
 }
+
+.design-div::before {
+    content: "";
+    background-image: url(../images.krakva/strilka.webp);
+}
 /* spec-tackle */
 .tackle {
     padding-top: 100px;
