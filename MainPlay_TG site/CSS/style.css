@@ -1,0 +1,208 @@
+/* хлам */
+body {
+    margin: 0; /* Убирает отступы по умолчанию */
+    padding: 0; /* Убирает внутренние отступы */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Убирает горизонтальную прокрутку */
+    background: linear-gradient(45deg, #ff00aa, #ff3388, #0077ff, #33ccff);
+    background-size: 300% 300%;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    /* border: solid 1px green; */
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.video-video {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    border: solid 3px #00000026;
+    border-radius: 25px;
+    background-color: #0044cc35;
+}
+
+.video-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #33ccff46;
+    border-radius: 18px;
+    width: 170px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.video-button:hover {
+    background-color: #0044cc46;
+    color: gray;
+}
+
+.video-text {
+    color: #000000c2;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 32px;
+    font-weight: 550;
+}
+
+/* header */
+
+.header {
+   background: linear-gradient(45deg, #cc0066, #ff0099, #33ccff, #0044cc);
+   
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 45px;
+    color: #00000095;
+}
+
+.header-img {
+    width: 250px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Main */
+
+.main-title {
+    color: #000000c2;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.main-h2 {
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
+.main-h3 {
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.pre-video {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Вертикальное центрирование */
+    flex-direction: column; /* Если нужно расположить элементы вертикально */
+    height: 100%; /* Убедитесь, что высота задана */
+}
+
+.pre-video-title {
+    color: #000000c2;
+    display: flex;
+    justify-content: center;
+}
+
+.pre-video-button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 239px;
+    top: 348px;
+    border-color: solid 0.5px #33ccff26;
+    border-radius: 7px;
+    background-color: #ff338872;
+    width: 65px;
+    height: 35px;
+    color: #FFF;
+}
+
+
+.pre-video-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 239px;
+    top: 348px;
+    border-color: solid 0.5px #33ccff72;
+    border-radius: 7px;
+    background-color: #0077ff57;
+    width: 65px;
+    height: 35px;
+    color: #FFF;
+}
+
+.pre-video-u {
+    margin-left: 8px;
+}
+
+.pre-video-a {
+    color: #000000c2;
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.footer {
+    padding-top: 7px;
+    padding-bottom: 8px;
+    background: linear-gradient(45deg, #0044cc, #33ccff, #ff0099, #cc0066);
+}
+
+.footer-title {
+    color: #000000c2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer-items {
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-p {
+    color: #fff;
+}

@@ -12,17 +12,76 @@ body {
     font-family: "Jost" ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
     /* outline: 1px solid rgb(0, 6, 128) ;  */
 }
+
+/* menu */
+
+.menu {
+    width: 300px;
+    height: 500px;
+    background-color: var(--GrayBlack-color-);
+    position: fixed;
+    top: 0;
+    left: -250px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.menu:hover {
+    left: 0px;
+    .menu-title {
+        opacity: 0;
+    }
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menu-title {
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 900;
+    position: absolute;
+    top: 40%;
+    left : 200px;
+    transform: rotate(270deg);
+    color: #E7E7E7;
+}
+
+.menu-link {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--border-color-);
+}
+
+
+
 /* header */
 
 .header {
     padding-top: 26px;
     padding-bottom: 30px;
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* backdrop-filter: blur(10px);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+
 }
 
 .header-container {  
@@ -49,10 +108,40 @@ body {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.4px;    
+    margin-bottom: 52px;
+    transition-property: color;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(1,-0.01,0,1);
+}
+
+.header-a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--gold-color-);
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    border-radius: 10px;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition-property: opacity;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(1,-0.01,0,1);
+}
+
+.header-a:hover::after {
+    opacity: 1;
+    /* visibility: visible; */
+}
+
+.header-item {
+    position: relative;
 }
 
 .header-a:hover {
-    color: #CDA274;
+    color: var(--gold-color-);
 }
 
 /* create */
@@ -566,6 +655,14 @@ body {
     outline: 1px solid var(--border-color) ; 
     padding: 21px;
 }
+
+/*  transition-property: opacity;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(1,-0.01,0,1);
+     */
+.Blogs-div:hover {
+        box-shadow: 5px 5px 5px 5px red;
+    }
 
 .Blogs-title {
     color: var(--GrayBlack-color-);
